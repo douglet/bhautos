@@ -3,96 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BH Autos</title>
+    <title>Coming Soon</title>
     <style>
         body {
             font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-        }
-        header {
-            background-color: #333;
-            color: #fff;
-            padding: 10px 0;
-            text-align: center;
-        }
-        nav {
-            text-align: center;
-            margin: 10px 0;
-        }
-        nav a {
-            margin: 0 15px;
-            text-decoration: none;
+            background-color: #f0f0f0;
             color: #333;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
         }
-        main {
-            padding: 20px;
+        .container {
             text-align: center;
         }
-        footer {
-            background-color: #333;
-            color: #fff;
-            text-align: center;
-            padding: 10px 0;
-            position: fixed;
-            width: 100%;
-            bottom: 0;
+        h1 {
+            font-size: 2.5em;
+            margin-bottom: 20px;
         }
-        #map {
-            height: 400px;
-            width: 100%;
+        p {
+            font-size: 1.2em;
+            color: #555;
         }
     </style>
 </head>
 <body>
-
-    <header>
-        <h1>BH Autos</h1>
-    </header>
-
-    <nav>
-        <a href="#services">Services</a>
-        <a href="#contact">Contact</a>
-        <a href="#location">Location</a>
-    </nav>
-
-    <main>
-        <section id="services">
-            <h2>Our Services</h2>
-            <p>We offer a wide range of car repair services including engine repair, brake services, oil changes, and more.</p>
-        </section>
-
-        <section id="contact">
-            <h2>Contact Us</h2>
-            <p>Phone: 01234 567890</p>
-            <p>Email: info@bhautos.co.uk</p>
-        </section>
-
-        <section id="location">
-            <h2>Our Location</h2>
-            <div id="map"></div>
-        </section>
-    </main>
-
-    <footer>
-        <p>&copy; 2024 BH Autos. All rights reserved.</p>
-    </footer>
-
-    <script>
-        function initMap() {
-            var location = {lat: 51.5074, lng: -0.1278}; // Replace with the actual coordinates of BH Autos
-            var map = new google.maps.Map(document.getElementById('map'), {
-                zoom: 14,
-                center: location
-            });
-            var marker = new google.maps.Marker({
-                position: location,
-                map: map
-            });
-        }
-    </script>
-    <script async defer
-    src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap">
-    </script>
+    <div class="container">
+        <h1>Coming Soon</h1>
+        <p>We're working hard to bring you a great experience. Stay tuned!</p>
+    </div>
 </body>
 </html>
